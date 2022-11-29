@@ -3,7 +3,7 @@ import sqlite3
 import json
 import os
 import matplotlib.pyplot as plt
-# starter code
+# Zeinab Ghandour 
 
 # Create Database
 def setUpDatabase(db_name):
