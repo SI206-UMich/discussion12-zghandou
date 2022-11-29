@@ -4,6 +4,7 @@ import json
 import os
 import matplotlib.pyplot as plt
 # Zeinab Ghandour 
+#
 
 # Create Database
 def setUpDatabase(db_name):
@@ -48,7 +49,7 @@ def add_employee(filename, cur, conn):
 
 # TASK 2: GET JOB AND HIRE_DATE INFORMATION
 def job_and_hire_date(cur, conn):
-    pass
+    ("SELECT Employees.hire_date, Jobs.job_title FROM Employees JOIN Jobs ON Jobs.job_id = Employees.job_id") 
 
 # TASK 3: IDENTIFY PROBLEMATIC SALARY DATA
 # Apply JOIN clause to match individual employees
